@@ -15,3 +15,9 @@ Or you can just build:
 ```
 make tempest
 ```
+
+## How Does This Work?
+We're creating a PDP-11 cartridge disk from the files in the [`src`](./src) directory, launching
+a PDP-11 emulator, and then assembling and linking the sources on the disk. After that we copy
+all the files from the disk to our local system and extract the ROMs from one of those files (`ALEXEC.LDA`).
+Once we have those ROMS we use `mame` to play them.
