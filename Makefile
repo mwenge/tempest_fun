@@ -3,7 +3,7 @@
 DIRS=bin/tempest
 
 run: tempest mame
-	mame -window -rompath bin/ -beam_width_min 2.1 tempest
+	mame -window -rompath bin/ -skip_gameinfo -beam_width_min 2.1 tempest
 
 tempest: sources expect pdp11
 	$(shell mkdir -p $(DIRS))
