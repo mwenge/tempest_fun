@@ -7,6 +7,7 @@ run: tempest mame
 
 tempest: sources expect pdp11
 	$(shell mkdir -p $(DIRS))
+	cp pdp11_build/sy_clean.rk05 pdp11_build/sy.rk05
 	expect pdp11_build/tempest.exp
 	./utils/extract_binary.py
 
