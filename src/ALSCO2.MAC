@@ -1,3 +1,4 @@
+; vim: set syntax=64tass ffs=unix,dos ts=8 sw=8 noexpandtab:
 	.TITLE	ALSCOR-SCORE MODULE
 	.SBTTL	****************************************
 	.SBTTL	*					*
@@ -140,6 +141,16 @@ ZATC4V::	LDY I,ZATC4C		;VERIFY CALL TO ATARI LITERAL
 	IFEQ
 	LDA QSTATUS
 	IFMI			;ATTRACT?
+	LDX I,MAPROA		;NO, LEVEL CONGRATS!
+	LDA CURWAV
+	AND I,3
+	TAY
+	BEGIN
+	INX
+	INX
+	DEY
+	MIEND
+	JSR MSGS
 	LDX PLAYUP		;NO.
 	LDA X,BONUS
 	IFNE			;DISPLAY BONUS?
