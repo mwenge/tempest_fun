@@ -16,12 +16,24 @@ Or you can just build:
 make tempest
 ```
 
+## Tempest:T2K Edition
+There is fun to be had. The 'T2K Edition' contains:
+* The first 32 levels from Tempest 2000 (the original Tempest only has 16!).
+* Inspiring messages after you complete each level.
+
+To try it out you can do:
+
+```
+git checkout tempest_2k
+make
+```
+
 ## How Does This Work?
 We're creating a PDP-11 cartridge disk from the files in the [`src`](./src) directory, launching
 a PDP-11 emulator, and then assembling and linking the sources on the disk. After that we copy
-all the files from the disk to our local system and extract the ROMs from one of those files (`ALEXEC.LDA`).
+all the files from the emulated disk to our local system and extract the ROMs from one of those files (`ALEXEC.LDA`).
 Once we have those ROMS we use `mame` to play them.
 
 ## Do You Want To Know More?
 [This Related Repository](https://github.com/mwenge/tempest) has more information about the contents of the 
-Tempest sources and how we turn them into workings ROMs.
+Tempest sources and how we turn them into working ROMs.
