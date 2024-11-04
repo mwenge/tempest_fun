@@ -21,12 +21,15 @@ There is fun to be had. The 'T2K Edition' contains:
 * The first 32 levels from Tempest 2000 (the original Tempest only has 16!).
 * Inspiring messages after you complete each level.
 
+[![Tempest: 2K Edition](http://img.youtube.com/vi/qDXQXmQkNSQ/0.jpg)](http://www.youtube.com/watch?v=qDXQXmQkNSQ "Tempest: 2K Edition")
+
 To try it out you can do:
 
 ```
 git checkout tempest_2k
 make
 ```
+Or you can [download it from the releases page](releases/edit/v0.01).
 
 ## How Does This Work?
 We're creating a PDP-11 cartridge disk from the files in the [`src`](./src) directory, launching
