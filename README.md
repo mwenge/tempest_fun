@@ -30,7 +30,7 @@ To try it out you can do:
 git checkout tempest_2k
 make
 ```
-Or you can [download it from the releases page](https://github.com/mwenge/tempest_fun/releases/edit/v0.01).
+Or you can [download it from the releases page](https://github.com/mwenge/tempest_fun/releases/v0.01).
 
 ## How Does This Work?
 We're creating a PDP-11 cartridge disk from the files in the [`src`](./src) directory, launching
