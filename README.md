@@ -37,6 +37,8 @@ make
 Or you can [download it from the releases page](https://github.com/mwenge/tempest_fun/releases/v0.01).
 
 ## Tempest: Map Pack Edition
+https://youtu.be/VzlPWctIsKA
+[![Tempest: 2K Edition](http://img.youtube.com/vi/VzlPWctIsKA/0.jpg)](http://www.youtube.com/watch?v=VzlPWctIsKA "Tempest: Map Pack")
 32 quite crappy levels [hacked together](https://github.com/mwenge/tempest/blob/master/notebooks/Vectorize%20Images.ipynb) by
 reducing a bunch of svg icons to 16-byte vectors. 
 
