@@ -21,7 +21,6 @@ make tempest
 ```
 
 ## Tempest: T2K Edition
-https://youtu.be/trSKagNvFgo
 [![Tempest: 2K Edition](http://img.youtube.com/vi/trSKagNvFgo/0.jpg)](http://www.youtube.com/watch?v=trSKagNvFgo "Tempest: 2K Edition")
 
 There is fun to be had. The 'T2K Edition' contains:
