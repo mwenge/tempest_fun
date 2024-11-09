@@ -21,7 +21,7 @@ make tempest
 ```
 
 ## Tempest: T2K Edition
-[![Tempest: 2K Edition](http://img.youtube.com/vi/trSKagNvFgo/0.jpg)](http://www.youtube.com/watch?v=trSKagNvFgo "Tempest: 2K Edition")
+[![Tempest: 2K Edition](http://img.youtube.com/vi/d-mbi7X3UYk/0.jpg)](http://www.youtube.com/watch?v=d-mbi7X3UYk "Tempest: 2K Edition")
 
 There is fun to be had. The 'T2K Edition' contains:
 * French, Spanish, and German language packs removed to free up some space for:
