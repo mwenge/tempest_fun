@@ -1,10 +1,9 @@
 # Building Tempest for Fun
-![make1](https://github.com/user-attachments/assets/934b9f18-43cd-4606-ad6b-375830a1423a)
 
 ## You Will Need
 .. to install a few things:
 ```
-sudo apt install simh expect mame build-essential
+sudo apt install simh expect mame build-essential python3
 ```
 
 ## Now You Can Build and Play
@@ -17,12 +16,11 @@ Or you can just build:
 make tempest
 ```
 
-## Tempest:T2K Edition
+## Tempest: T2K Edition
 There is fun to be had. The 'T2K Edition' contains:
+* French, Spanish, and German language packs removed to free up some space for:
 * The first 32 levels from Tempest 2000 (the original Tempest only has 16!).
 * Inspiring messages after you complete each level.
-
-[![Tempest: 2K Edition](http://img.youtube.com/vi/qDXQXmQkNSQ/0.jpg)](http://www.youtube.com/watch?v=qDXQXmQkNSQ "Tempest: 2K Edition")
 
 To try it out you can do:
 
@@ -30,7 +28,17 @@ To try it out you can do:
 git checkout tempest_2k
 make
 ```
-Or you can [download it from the releases page](https://github.com/mwenge/tempest_fun/releases/v0.01).
+
+## Tempest: Map Pack Edition
+32 quite crappy levels [hacked together](https://github.com/mwenge/tempest/blob/master/notebooks/Vectorize%20Images.ipynb) by
+reducing a bunch of svg icons to 16-byte vectors. 
+
+To try it out you can do:
+
+```
+git checkout tempest_icons
+make
+```
 
 ## How Does This Work?
 We're creating a PDP-11 cartridge disk from the files in the [`src`](./src) directory, launching
