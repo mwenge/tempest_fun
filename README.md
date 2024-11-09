@@ -21,6 +21,8 @@ make tempest
 ```
 
 ## Tempest: T2K Edition
+[![Tempest: 2K Edition](http://img.youtube.com/vi/qDXQXmQkNSQ/0.jpg)](http://www.youtube.com/watch?v=qDXQXmQkNSQ "Tempest: 2K Edition")
+
 There is fun to be had. The 'T2K Edition' contains:
 * French, Spanish, and German language packs removed to free up some space for:
 * The first 32 levels from Tempest 2000 (the original Tempest only has 16!).
@@ -56,5 +58,5 @@ We're:
 Once we have those ROMS we use `mame` to play them.
 
 ## Do You Want To Know More?
-[This Related Repository](https://github.com/mwenge/tempest) has more information about the contents of the 
+[This related repository](https://github.com/mwenge/tempest) has more information about the contents of the 
 Tempest sources and how we turn them into working ROMs.
