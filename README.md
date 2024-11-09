@@ -1,4 +1,7 @@
 # Building Tempest for Fun
+The source code for Tempest has been available [since 2021](https://github.com/historicalsource/tempest/),
+so let's build like it's 1980 again.
+
 ![make1](https://github.com/user-attachments/assets/934b9f18-43cd-4606-ad6b-375830a1423a)
 
 ## You Will Need
@@ -43,9 +46,13 @@ make
 ```
 
 ## How Does This Work?
-We're creating a PDP-11 cartridge disk from the files in the [`src`](./src) directory, launching
-a PDP-11 emulator, and then assembling and linking the sources on the disk. After that we copy
-all the files from the emulated disk to our local system and extract the ROMs from one of those files (`ALEXEC.LDA`).
+We're:
+* creating a PDP-11 cartridge disk from the files in the [`src`](./src) directory, 
+* launching a PDP-11 emulator, 
+* assembling and linking the sources on the cartridge disk, 
+* copying all the files from the emulated disk to our local system,
+* then extracting the ROMs from the built binary (`ALEXEC.LDA`).
+
 Once we have those ROMS we use `mame` to play them.
 
 ## Do You Want To Know More?
